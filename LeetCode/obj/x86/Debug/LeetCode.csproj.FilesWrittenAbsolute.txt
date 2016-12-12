@@ -1,0 +1,5 @@
+/Users/kf/Documents/C#Projects/LeetCode/LeetCode/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/kf/Documents/C#Projects/LeetCode/LeetCode/bin/Debug/LeetCode.exe.mdb
+/Users/kf/Documents/C#Projects/LeetCode/LeetCode/bin/Debug/LeetCode.exe
+/Users/kf/Documents/C#Projects/LeetCode/LeetCode/obj/x86/Debug/LeetCode.exe
+/Users/kf/Documents/C#Projects/LeetCode/LeetCode/obj/x86/Debug/LeetCode.exe.mdb
