@@ -1,0 +1,11 @@
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.deps.json
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.runtimeconfig.json
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.runtimeconfig.dev.json
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.dll
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.pdb
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.csprojAssemblyReference.cache
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.csproj.CoreCompileInputs.cache
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.AssemblyInfoInputs.cache
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.AssemblyInfo.cs
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.dll
+/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.pdb

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="069b4029-9f06-45f0-816e-0770f004fdc8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <marker date="1560076680000" expanded="true" signature="46:176" ph="{...}" />
+                <marker date="1560076680000" expanded="true" signature="66:174" ph="{...}" />
+                <marker date="1560076680000" expanded="true" signature="112:168" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/FindInDoubleArray.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <marker date="1560072731000" expanded="true" signature="31:907" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="68:905" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="126:899" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="202:260" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="481:863" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="556:625" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="686:757" ph="{...}" />
+                <marker date="1560072731000" expanded="true" signature="778:849" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReplaceSpace.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <marker date="1560076346000" expanded="true" signature="31:1126" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="63:1124" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="116:1118" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="191:317" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="235:303" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="619:1068" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="684:864" ph="{...}" />
+                <marker date="1560076346000" expanded="true" signature="885:1020" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReConstructBinaryTree.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <marker date="1560091117000" expanded="true" signature="66:1245" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="94:264" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="217:258" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="304:1243" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="468:685" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="527:610" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="778:1237" ph="{...}" />
+                <marker date="1560091117000" expanded="true" signature="815:872" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/PrintListFromTailToHead.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <marker date="1560079870000" expanded="true" signature="6:86" ph="..." />
+                <marker date="1560079870000" expanded="true" signature="119:910" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="147:286" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="239:280" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="328:908" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="402:902" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="492:551" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="647:761" ph="{...}" />
+                <marker date="1560079870000" expanded="true" signature="796:865" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReConstructBinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46222381-9F5F-47CB-B1F6-284816278DF8/4f/b2f2bb13/Stack`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/PrintListFromTailToHead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/FindInDoubleArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReplaceSpace.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/二维数组中的查找.cs" />
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/FindInDoubleArray.cs" />
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/Program.cs" />
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/PrintListFromTailToHead.cs" />
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/ReplaceSpace.cs" />
+        <option value="$PROJECT_DIR$/LeetCodeAndSwordOffer/ReConstructBinaryTree.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-4" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeetCodeAndSwordOffer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeetCodeAndSwordOffer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LeetCodeAndSwordOffer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/LeetCodeAndSwordOffer/bin/Debug/netcoreapp2.2/LeetCodeAndSwordOffer.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCodeAndSwordOffer" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="23" width="1920" height="977" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.61129946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3299435" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Unit Tests" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.3299435" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/二维数组中的查找.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46222381-9F5F-47CB-B1F6-284816278DF8/4f/b2f2bb13/Stack`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReplaceSpace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1560076346000" expanded="true" signature="31:1126" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="63:1124" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="116:1118" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="191:317" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="235:303" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="619:1068" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="684:864" ph="{...}" />
+            <marker date="1560076346000" expanded="true" signature="885:1020" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/PrintListFromTailToHead.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1560079870000" expanded="true" signature="6:86" ph="..." />
+            <marker date="1560079870000" expanded="true" signature="119:910" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="147:286" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="239:280" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="328:908" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="402:902" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="492:551" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="647:761" ph="{...}" />
+            <marker date="1560079870000" expanded="true" signature="796:865" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/FindInDoubleArray.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <marker date="1560072731000" expanded="true" signature="31:907" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="68:905" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="126:899" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="202:260" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="481:863" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="556:625" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="686:757" ph="{...}" />
+            <marker date="1560072731000" expanded="true" signature="778:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <marker date="1560076680000" expanded="true" signature="46:176" ph="{...}" />
+            <marker date="1560076680000" expanded="true" signature="66:174" ph="{...}" />
+            <marker date="1560076680000" expanded="true" signature="112:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeAndSwordOffer/ReConstructBinaryTree.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <marker date="1560091117000" expanded="true" signature="66:1245" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="94:264" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="217:258" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="304:1243" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="468:685" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="527:610" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="778:1237" ph="{...}" />
+            <marker date="1560091117000" expanded="true" signature="815:872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
