@@ -1,6 +1,5 @@
-using System.Collections.Generic;
 
-namespace LeetCodeAndSwordOffer
+namespace Code
 {
     public class TreeNode
     {
@@ -16,28 +15,31 @@ namespace LeetCodeAndSwordOffer
 
     public class ReConstructBinaryTree
     {
-        private Dictionary<int,int> _value2IndexInOrderTree = new Dictionary<int, int>();
         public TreeNode reConstructBinaryTree(int[] pre, int[] tin)
         {
-            for (int i = 0; i < tin.Length; i++)
-            {
-                _value2IndexInOrderTree.Add(tin[i],i);
-            }
-
-            return reConstructBinaryTree(pre,0,pre.Length-1,0);
+            return reConstructBinaryTree(pre, 0, pre.Length-1, tin, 0, tin.Length-1);
         }
 
-        private TreeNode reConstructBinaryTree(int[] pre,int preL,int preR,int inTreeStart)
+        private TreeNode reConstructBinaryTree(int[] pre, int lPre, int rPre, int[] tin, int lTin, int rTin)
         {
-            if (preL>preR)
+            if (lTin>rTin||lPre>rPre)
             {
                 return null;
             }
-            TreeNode root = new TreeNode(pre[preL]);
-            int leftTreeSize = _value2IndexInOrderTree[root.val] - inTreeStart;
-            root.left = reConstructBinaryTree(pre, preL, leftTreeSize - 1,inTreeStart); 
-            root.right =  reConstructBinaryTree(pre, preL+leftTreeSize+1, preR,inTreeStart+leftTreeSize+1);
+            TreeNode root = new TreeNode(pre[lPre]);
+            for (int i = lTin; i <= rTin; i++)
+            {
+                if (tin[i]==root.val)
+                {
+                    int length = i-lTin ;
+                    root.left = reConstructBinaryTree(pre, lPre+1, lPre+length, tin, lTin, i-1);
+                    root.right = reConstructBinaryTree(pre, lPre+length+1, rPre, tin, i+1, rTin);
+                    break;
+                }                        
+            }
+
             return root;
+
         }
     }
 }
