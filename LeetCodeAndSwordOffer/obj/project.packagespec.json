@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer.csproj",
+    "projectUniqueName": "/Users/kf/Documents/GitHub/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer.csproj",
     "projectName": "LeetCodeAndSwordOffer",
-    "projectPath": "/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer.csproj",
-    "outputPath": "/Users/kf/RiderProjects/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/",
+    "projectPath": "/Users/kf/Documents/GitHub/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer.csproj",
+    "outputPath": "/Users/kf/Documents/GitHub/LeetCodeAndSwordOffer/LeetCodeAndSwordOffer/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
