@@ -4,12 +4,22 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="LeetCodeAndSwordOffer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CoinChange.cs" t="Include" />
         <e p="Fibonacci.cs" t="Include" />
+        <e p="FindAnagrams.cs" t="Include" />
         <e p="FindInDoubleArray.cs" t="Include" />
+        <e p="FindKthLargest.cs" t="Include" />
+        <e p="IsPalindrome.cs" t="Include" />
         <e p="JumpFloor.cs" t="Include" />
         <e p="LeetCodeAndSwordOffer.csproj" t="IncludeRecursive" />
+        <e p="LengthOfLIS.cs" t="Include" />
+        <e p="LengthOfLongestSubstring.cs" t="Include" />
+        <e p="MaxArea.cs" t="Include" />
+        <e p="MaxSubArray.cs" t="Include" />
         <e p="MinNumberInRotateArray.cs" t="Include" />
+        <e p="MinSubArrayLen.cs" t="Include" />
         <e p="MoveZeroes.cs" t="Include" />
+        <e p="NQueens.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -23,8 +33,10 @@
         <e p="ReConstructBinaryTree.cs" t="Include" />
         <e p="RectCover.cs" t="Include" />
         <e p="ReplaceSpace.cs" t="Include" />
+        <e p="ReverseVowels.cs" t="Include" />
         <e p="SortColors.cs" t="Include" />
         <e p="TwoStack_Queue.cs" t="Include" />
+        <e p="Utils.cs" t="Include" />
       </e>
       <e p="LeetCodeAndSwordOffer.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

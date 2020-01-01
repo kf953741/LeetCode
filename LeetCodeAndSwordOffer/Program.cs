@@ -7,9 +7,8 @@ namespace LeetCodeAndSwordOffer
     {
         static void Main(string[] args)
         {
-           SortColors75 t = new SortColors75();
-           t.SortColors(new []{2,0,2,1,1,0});
-           
+            LengthOfLIS300 c = new LengthOfLIS300();
+            System.Console.WriteLine(c.LengthOfLIS(new []{10,9,2,5,3,7,101,18}));
         }
     }
 }
