@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="LeetCodeAndSwordOffer" t="IncludeRecursive">
+        <e p="AllElementsInTwoBinarySearchTrees.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CoinChange.cs" t="Include" />
         <e p="Fibonacci.cs" t="Include" />
