@@ -12,7 +12,7 @@ public:
     {
         vector<vector<int>> ans;
         vector<int> combine;
-        dfs(candidates,target,ans,combine,0);
+        dfs(candidates, target, ans, combine, 0);
         return ans;
     }
     void dfs(vector<int> &candidates, int target, vector<vector<int>> &ans, vector<int> &combine, int idx)
@@ -30,7 +30,7 @@ public:
         if (target - candidates[idx] >= 0)
         {
             combine.emplace_back(candidates[idx]);
-            dfs(candidates,target-candidates[idx],ans,combine,idx);
+            dfs(candidates, target - candidates[idx], ans, combine, idx);
             combine.pop_back();
         }
     }
