@@ -5,35 +5,35 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution
+{
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> res;
-        vector<int> cur;
-        backtrack(nums,cur,res);
-        return res;
-    }
-    void backtrack(vector<int>& nums,vector<int>& cur,vector<vector<int>>& res)
+    vector<vector<int>> result;
+    vector<vector<int>> permute(vector<int> &nums)
     {
-        if (cur.size()==nums.size())
+        vector<int> curPath;
+        unordered_set<int> used;
+        backtrack(nums, curPath,used);
+        return result;
+    }
+    void backtrack(vector<int> &nums, vector<int> &curPath, unordered_set<int> &used)
+    {
+        if (curPath.size() == nums.size())
         {
-            res.push_back(cur);
+            result.push_back(curPath);
             return;
         }
-        for (int i = 0; i < nums.size(); i++)
+        for (size_t i = 0; i < nums.size(); i++)
         {
-            auto have = std::find(cur.begin(),cur.end(),nums[i]);
-            if (have==cur.end())
+            if (used.find(i)==used.end())
             {
-                cur.push_back(nums[i]);
-                backtrack(nums,cur,res);
-                cur.pop_back();
+                curPath.push_back(nums[i]);
+                used.insert(i);
+                backtrack(nums, curPath, used);
+                curPath.pop_back();
+                used.erase(i);
             }
-            
         }
-        
-        
     }
 };
 // @lc code=end
-
