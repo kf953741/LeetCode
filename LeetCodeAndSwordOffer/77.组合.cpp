@@ -20,7 +20,7 @@ public:
             res.push_back(cur);
             return;
         }
-        for (int i = level; i <=n-(k-cur.size())+1; i++)
+        for (int i = level; i <= n; i++)
         {
             cur.push_back(i);
             backtrack(n,k,cur,i+1);
