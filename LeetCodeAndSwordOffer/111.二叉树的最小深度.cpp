@@ -19,41 +19,37 @@ class Solution
 public:
     int minDepth(TreeNode *root)
     {
-
         if (root == nullptr)
         {
             return 0;
         }
 
-        int res = 0;
+        int depth = 1;
         queue<TreeNode *> q;
         q.push(root);
-
         while (!q.empty())
         {
-            int levelSize = q.size();
-             res++;
-            for (int i = 0; i < levelSize; i++)
+            int size = q.size();
+            for (size_t i = 0; i < size; i++)
             {
-                TreeNode *node = q.front();
+                TreeNode *cur = q.front();
                 q.pop();
-                if (node->left == nullptr && node->right == nullptr)
+                if (cur->left == nullptr && cur->right == nullptr)
                 {
-                    return res;
+                    return depth;
                 }
-
-                if (node->left != nullptr)
+                if (cur->left)
                 {
-                    q.push(node->left);
+                    q.push(cur->left);
                 }
-                if (node->right != nullptr)
+                if (cur->right)
                 {
-                    q.push(node->right);
+                    q.push(cur->right);
                 }
             }
+            depth++;
         }
-
-        return res;
+        return depth;
     }
 };
 // @lc code=end
