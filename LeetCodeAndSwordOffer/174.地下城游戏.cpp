@@ -8,34 +8,36 @@
 class Solution
 {
 public:
+    vector<vector<int>> memo;
     int calculateMinimumHP(vector<vector<int>> &dungeon)
     {
-      
         int row = dungeon.size();
         int col = dungeon[0].size();
-        vector<vector<int>> dp(row, vector<int>(col, 0));
-        dp[row - 1][col - 1] = max(0, -dungeon[row - 1][col - 1]);
-        for (int i = row - 2; i >= 0; i--)
+        memo.resize(row, vector<int>(col, 0));
+        return dfs(dungeon, 0, 0);
+    }
+
+    int dfs(vector<vector<int>> &dungeon, int i, int j)
+    {
+        int row = dungeon.size();
+        int col = dungeon[0].size();
+        if (i >= row || j >= col)
         {
-            int needMin = dp[i + 1][col - 1] - dungeon[i][col - 1];
-            dp[i][col - 1] = max(0, needMin);
+            return INT_MAX;
         }
 
-        for (int i = col - 2; i >= 0; i--)
+        if (i == row - 1 && j == col - 1)
         {
-            int needMin = dp[row - 1][i + 1] - dungeon[row - 1][i];
-            dp[row - 1][i] = max(0, needMin);
+            return max(0, -dungeon[i][j]) + 1;
         }
-
-        for (int i = row - 2; i >= 0; --i)
+        if (memo[i][j] != 0)
         {
-            for (int j = col - 2; j >= 0; --j)
-            {
-                int needMin = min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j];
-                dp[i][j] = max(0, needMin);
-            }
+            return memo[i][j];
         }
-        return dp[0][0] + 1;
+        int a = dfs(dungeon, i, j + 1);
+        int b = dfs(dungeon, i + 1, j);
+        memo[i][j] = max(1, min(a, b) - dungeon[i][j]);
+        return memo[i][j];
     }
 };
 // @lc code=end
