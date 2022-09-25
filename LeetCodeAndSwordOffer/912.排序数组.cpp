@@ -5,59 +5,45 @@
  */
 
 // @lc code=start
-class Solution
-{
-public:
-    vector<int> sortArray(vector<int> &nums)
-    {
-        shuffle(nums);
-        sort(nums, 0, nums.size() - 1);
-        return nums;
+class Solution {
+ public:
+  vector<int> sortArray(vector<int>& nums) {
+    shullfe(nums);
+    sort(nums, 0, nums.size() - 1);
+    return nums;
+  }
+  void sort(vector<int>& nums, int lo, int hi) {
+    if (lo >= hi) {
+      return;
     }
-
-    void sort(vector<int> &nums, int lo, int hi)
-    {
-        if (lo >= hi)
-        {
-            return;
-        }
-
-        int i = partition(nums, lo, hi);
-        sort(nums, lo, i - 1);
-        sort(nums, i + 1, hi);
+    int p = partition(nums, lo, hi);
+    sort(nums, lo, p - 1);
+    sort(nums, p + 1, hi);
+  }
+  int partition(vector<int>& nums, int lo, int hi) {
+    int pivot = nums[hi];
+    int cur = lo;
+    while (lo < hi) {
+      if (nums[lo] < pivot) {
+        swap(nums, cur, lo);
+        cur++;
+      }
+      lo++;
     }
-
-    int partition(vector<int> &nums, int lo, int hi)
-    {
-        int pivot = nums[hi];
-        int i = lo, j = lo;
-        while (j < hi)
-        {
-            if (nums[j] < pivot)
-            {
-                swap(nums, i, j);
-                i++;
-            }
-            j++;
-        }
-        swap(nums, i, hi);
-        return i;
+    swap(nums, cur, hi);
+    return cur;
+  }
+  void shullfe(vector<int>& nums) {
+    int size = nums.size();
+    for (size_t i = 0; i < size; i++) {
+      int t = rand() % (size - i) + i;
+      swap(nums, i, t);
     }
-
-    void shuffle(vector<int> &nums)
-    {
-        int n = nums.size();
-        for (size_t i = 0; i < n; i++)
-        {
-            int r = rand() % (n - i) + i;
-            swap(nums, i, r);
-        }
-    }
-    void swap(vector<int> &nums, int i, int j)
-    {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+  }
+  void swap(vector<int>& nums, int i, int j) {
+    int temp = nums[i];
+    nums[i] = nums[j];
+    nums[j] = temp;
+  }
 };
 // @lc code=end
